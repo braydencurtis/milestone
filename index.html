@@ -6,7 +6,7 @@
         <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Open+Sans:400,700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <header class="full-width">
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
@@ -15,60 +15,65 @@
                 </ul>
             </nav>
             <div>
-                <h1><img src="img/computer-icon.png" />Hello World, My name is <span>Brayden Curtis.</span></h1>
+                <h1><img src="img/computer-icon.png" />   Hello World,<br>My name is <span>Brayden Curtis.</span></h1>
                 <h2>I am a web developer, videographer, and photographer in Huntingotn Beach, California.</h2>
             </div>
         </header>
-        <section id="about">
+        <section id="about" class="orange">
             <h3>About Me</h3>
             <img src="img/headshot.jpg" alt="A picture of me" />
             <p><strong>I love being uncomfortable.</strong></p>
-            <p>I constantly push myself out of my comfort zone so I can learn all kinds of new things, and expand my skills. My biggest obstacle is my cat Mochi who keeps sitting on my keyboard.</p>
+            <p>I constantly push myself out of my comfort zone so I can learn all kinds of new things, and expand my skills.</p> 
+            <p>My biggest obstacle is my cat Mochi who keeps sitting on my keyboard.</p>
         </section>
         <section id="work">
             <h3>My Portfolio</h3>
-            <div class="third-width">
-                <img src="img/holstee-thumbnail.png" alt="braydencurtis.com preview" />
-                <h4>Brayden Curtis's Portfolio</h4>
-                <p>HTML5 & CSS Website built using Bootstrap 4</p>
-            </div>
-            <div class="third-width">
-                <img src="img/jubilee-thumbnail.png" alt="kathymurray1040.com preview" />
-                <h4>Kathy Murray Accounting Services</h4>
-                <p>HTML5 & CSS Website built using CSS Grid</p>
-            </div>
-            <div class="third-width">
-                <img src="img/rogue-pickings-thumbnail.png" alt="roguepickings preview" />
-                <h4>Rogue Pickings</h4>
-                <p>HTML5 & CSS Website built using a reference .psd</p>
+            <div class="full-width flex-row">
+                <div class="third-width">
+                    <img src="img/holstee-thumbnail.png" alt="braydencurtis.com preview" />
+                    <h4>Brayden Curtis's Portfolio</h4>
+                    <p>HTML5 & CSS Website built using Bootstrap 4</p>
+                </div>
+                <div class="third-width center-portfolio">
+                    <img src="img/jubilee-thumbnail.png" alt="kathymurray1040.cwom preview" />
+                    <h4>Kathy Murray Accounting Services</h4>
+                    <p>HTML5 & CSS Website built using CSS Grid</p>
+                </div>
+                <div class="third-width">
+                    <img src="img/rogue-pickings-thumbnail.png" alt="roguepickings preview" />
+                    <h4>Rogue Pickings</h4>
+                    <p>HTML5 & CSS Website built using a reference .psd</p>
+                </div>
             </div>
         </section>
-        <footer id="contact">
+        <footer id="contact" class="orange">
             <h3>Let's Connect</h3>
+            <div class="full-width flex-row"> 
             <div class="third-width">
                 <h4>Hire me</h4>
                 <p>555-555-555<br>
                     contact@braydencurtis.com</p>
             </div>
-            <div class="third-width">
-                <h4>Follow me</h4>
-                <ul>
-                    <li>
-                        <img src="img/twitter.png" alt="twitter icon" />
-                    </li>
-                    <li>
-                        <img src="img/github.png" alt="github icon" />
-                    </li>
-                    <li>
-                        <img src="img/linkedin.png" alt="linkedin icon" />
-                    </li>
-                </ul>
-            </div>
-            <div class="third-width">
-                <h4>Meet me</h4>
-                <p>Huntington Beach, CA<br>
-                    Let's go to meetups together!</p>
-            </div>
+                <div class="third-width">
+                    <h4>Follow me</h4>
+                    <ul>
+                        <li>
+                            <img src="img/twitter.png" alt="twitter icon" />
+                        </li>
+                        <li>
+                            <img src="img/github.png" alt="github icon" />
+                        </li>
+                        <li>
+                            <img src="img/linkedin.png" alt="linkedin icon" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="third-width">
+                    <h4>Meet me</h4>
+                    <p>Huntington Beach, CA<br>
+                        Let's go to meetups together!</p>
+                </div>
+                </div>
         </footer>
     </body>
 </html>

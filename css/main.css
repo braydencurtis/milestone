@@ -35,16 +35,18 @@ body {
 header {
     height: 800px;
     width: 100%;
-    display: flex;
-    -webkit-display: flex;
+    /* display: flex;
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
     flex-direction: row;
+    -webkit-flex-direction: row;
     justify-content: right;
+    -webkit-justify-content: right; */
 }
 
+
 header ul {
-    justify-self: right;
-    -webkit-justify-self: right;
+    float: right;
 }
 
 header ul li {
@@ -63,6 +65,11 @@ header ul li a {
 
 header ul li a:hover {
     color: grey;
+}
+
+header .greeting {
+    clear: both;
+    padding-top: 200px;
 }
 
 header h1 {
